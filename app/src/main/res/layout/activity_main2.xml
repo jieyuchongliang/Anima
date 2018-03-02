@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="fragmentdemo.fujisoft.com.anima.MainActivity">
+
+    <Button
+        android:id="@+id/btn_code_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置动画" />
+
+    <Button
+        android:id="@+id/btn_xml_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML设置动画" />
+
+    <Button
+        android:id="@+id/btn_hong_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鸿翔式动画" />
+
+    <Button
+        android:id="@+id/btn_valueanim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鸿翔式设置ValueAnimator动画" />
+
+    <Button
+        android:id="@+id/type_evaluator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TypeEvaluator"
+        android:textAllCaps="false" />
+</LinearLayout>

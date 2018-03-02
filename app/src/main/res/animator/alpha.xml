@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="800"
+    android:repeatCount="-1"
+    android:propertyName="alpha"
+    android:repeatMode="reverse"
+    android:valueFrom="0"
+    android:valueTo="1"
+    android:valueType="floatType" />
+    <!--propertyName指定动画类型（透明度，旋转，平移）-->
+
